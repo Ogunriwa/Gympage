@@ -5,9 +5,16 @@ const Navbar = () => {
 
     return (
     <div className= {styles.navitem}>
-        <li>About Us</li>
-        <li>Let's Talk</li>
+        <div className = {styles.imgcont}>
+            <img src = '/Users/ibrahimarogundade/Desktop/gym_pages/Gympage/src/Subtract.png' alt = ''/>
+        </div>
+        <ul>
+            <li>About Us</li>
+            <li>Let's Talk</li>
+        </ul>
 
     </div>
     )
 }
+
+export default Navbar;
