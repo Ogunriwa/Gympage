@@ -1,12 +1,14 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const Main = () => {
 
     return (
-    <div>
-        <h1>Main Component Content</h1>
-        <p>This is the content of the Main component.</p>
-    </div>)
+        <div>
+            <Navbar/>
+            
+        </div>
+    )
 
 };
 
