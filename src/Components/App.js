@@ -12,7 +12,6 @@ import Footer from './Footer';
 function App() {
   return (
     <div className= {styles.Backcolor}>
-      <Navbar />
       <Main />
       <Footer />
       

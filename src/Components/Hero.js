@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./hero.module.css"
 
 
 const Hero = () => {
@@ -16,3 +17,5 @@ const Hero = () => {
     </div>
   )  
 }
+
+export default Hero;
