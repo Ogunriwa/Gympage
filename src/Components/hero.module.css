@@ -1,0 +1,71 @@
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+
+    .heron {
+        display:flex;
+        width: 931px;
+        Height: 312px;
+        Gap:2px;
+        padding-top: 32px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .strenj h1 {
+        font-family:sans-serif;
+        color: white;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        }
+    
+    
+    .concel h1 {
+        font-family:sans-serif;
+        color: white;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+    }
+
+    .strenj {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap:18px;
+    }    
+}
+
+
+@media screen and (min-width: 1441px) {
+    .heroitem  {
+    
+        background-image:url('BGImg.png') ;
+        background-size: cover; /* Adjust as needed */
+        background-position: center; /* Adjust as needed */
+        background-repeat: no-repeat;
+        width: 1600px;
+        height: 615px;
+        }
+
+        .strength h1 {
+            font-family:sans-serif;
+            color: white;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 400;
+            
+    
+            }
+
+        .strenj {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+}
