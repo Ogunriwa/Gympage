@@ -12,6 +12,7 @@ import Footer from './Footer';
 function App() {
   return (
     <div className= {styles.Backcolor}>
+      
       <Main />
       <Footer />
       

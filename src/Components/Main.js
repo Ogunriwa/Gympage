@@ -1,12 +1,14 @@
 import React from "react";
-import HeroNav from "./HeroNav"
 import Navbar from "./Navbar";
+import Hero from "./Hero";
+import styles from "./Main.module.css"
 
 const Main = () => {
 
     return (
-        <div>
-            <HeroNav/>
+        <div className={styles.naveo}>
+           <Navbar/>
+           <Hero/>
 
         </div>
     )

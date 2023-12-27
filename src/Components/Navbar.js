@@ -14,12 +14,12 @@ const Navbar = () => {
             {/* <img src ={images.image1} alt = ''/> */}
             
         </div>
-        <nav>
-            <ul>
-                <li>About Us</li>
-                <li>Let's Talk</li>
-            </ul>
-        </nav>
+        
+        <ul>
+            <li>About Us</li>
+            <li className={styles.letak}>Let's Talk</li>
+        </ul>
+        
 
     </div>
     )
