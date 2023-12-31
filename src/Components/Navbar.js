@@ -10,24 +10,26 @@ const images = {
 const Navbar = () => {
 
     return (
-    <div className= {styles.navitem}>
-        <div className = {styles.imgcont}>
-            <p>Gymbro</p> 
-         
+    <div className={styles.navig}>  
+        <div className= {styles.navitem}>
+            <div className = {styles.imgcont}>
+                <p>Gymbro</p> 
             
-        </div>
-        
-        <div className={styles.menu}>
-            <a className= {styles.about}>About Us</a> 
-            <a className= {styles.letak}>
-            Let's Talk <img src = {frameImage}/></a>
+                
+            </div>
             
+            <div className={styles.menu}>
+                <a className= {styles.about}>About Us</a> 
+                <a className= {styles.letak}>
+                Let's Talk <img src = {frameImage}/></a>
+                
+                
+                
+            </div>
             
-            
-        </div>
-        
 
-    </div>
+        </div>
+    </div>  
     )
 };
 export default Navbar;

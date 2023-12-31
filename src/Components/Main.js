@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
-import styles from "./Main.module.css"
+import styles from "./Main.module.css";
+
 
 const Main = () => {
 
@@ -9,6 +10,8 @@ const Main = () => {
         <div className={styles.naveo}>
            <Navbar/>
            <Hero/>
+           
+           
 
         </div>
     )

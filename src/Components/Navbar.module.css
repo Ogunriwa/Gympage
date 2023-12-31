@@ -4,47 +4,50 @@
 
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;600;700&display=swap');
     
+ .navig {
+    display: flex;
+    width: 100%;
+    padding: 24px 40px 0px 40px;
+    /* align-items: center;
+    width: 1200px; */
 
+} 
 .navitem {
     color: white;
     font-family: 'K2D';
     font-size:16px;
     display: flex;
-    /* flex: 1 0 0; */
+    flex: 1 0 0;
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    flex-direction: row;
+    
+    
     border: 6px;
     border-radius: 32px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
-    /* margin-bottom: 24px; */
-    /* margin-right: 40px;
-    margin-left: 40px; */
-    /* margin: 0px 30px; */
-    /* align-content: center; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px; 
     
     
-    backdrop-filter: blur(20px); /* Adjust the blur amount as needed */
-    /* background-color: red; */
-    background-color: rgba(37, 37, 37, 0.5);
+    
+    backdrop-filter: blur(20px);  
     background: transparent;
-    /* box-shadow: (0, 0, 0, 0.25) 0px 1px 2px 0px; */
+    background-color: rgba(37, 37, 37, 0.5);
+   
     opacity:1;
-    width: 96%;
-    /* width: fit-content; */
+    width: 96%; 
+  
     height: auto;
-    padding: 16px;
+    padding: 16px 24px;
     overflow-x: visible;
     overflow-y: visible;
    
-    position: fixed;
-    top:24px;
+    position: absolute; 
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%) ;
+   
     
     z-index:3;
-}
+}   
 .imgcont {
     display: flex;
     padding-left: 24px;
