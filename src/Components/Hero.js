@@ -15,17 +15,27 @@ const Hero = () => {
         <div className={styles.concel}>
           <h1>Consistency, Excellence,</h1>
         </div>
-        <div className={styles.unleashed}>
+        <div className={styles.unleash}>
+          <div className= {styles.box1}></div>
+          <div className= {styles.box2}></div>
+          <div className= {styles.box3}></div>
+          <div className= {styles.box4}></div>
+          <div className= {styles.box5}></div>
           <div className={styles.fitp}>
             <div className={styles.perspl}>
               <p>We can help you create a personalized fitness plan</p>
             </div>
             <div className={styles.plan}>
-              <h3>View Plans</h3>
+              <h6>View Plans</h6>
             </div>
           </div>
+          <div className= {styles.box5}></div>
+          <div className= {styles.box4}></div>
+          <div className= {styles.box3}></div>
+          <div className= {styles.box2}></div>
+          <div className= {styles.box6}></div>
           <div className={styles.unleashedd}>
-            <h1>Unleashed</h1>
+            <p>Unleashed</p>
           </div>
         </div>
       </div>

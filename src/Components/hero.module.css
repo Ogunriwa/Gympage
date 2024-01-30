@@ -1,16 +1,16 @@
 @media screen and (min-width: 1024px) and (max-width:1440px) {
     
 
-    /* .heroitem  {
+    .heroitem  {
     
         background-image:url('BGImg.png') ;
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat;
-        width: 1600px;
+        width: 1200px;
         height: 615px;
         }
-     */
+    
     .heron {
         display:flex;
         width: 931px;
@@ -18,8 +18,13 @@
         Gap:2px;
         padding-top: 32px;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
+        left: 50%;
+        transform: translate(-50%) ;
+        position: relative;
+        top: 170px;
+        /* text-align: left; */
     }
 
 
@@ -30,8 +35,13 @@
         font-style: normal;
         font-weight: 600;
         line-height: 140%;
+        margin: 0px;
+       
         }
-    
+    /* .concel {
+        margin: 0px;
+        padding: 0px;
+    } */
     
     .concel h1 {
         font-family:sans-serif;
@@ -40,6 +50,8 @@
         font-style: normal;
         font-weight: 600;
         line-height: 140%;
+        margin: 0px;
+        width: 841px;
     }
 
     .strenj {
@@ -49,6 +61,91 @@
         flex-direction: row;
         gap:18px;
     }    
+    .strenj p {
+        margin: 0px;
+    }
+    .unleash {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+
+    .fitp {
+        display: flex;
+        flex-direction: column;
+        background-color: #FF5B23;
+        padding: 12px;
+        width: 243px;;
+        height:72px;
+        gap:16px;
+        justify-content: center;
+        
+    }
+
+    .box1 {
+        display: flex;
+        width: 4px;
+        align-self: stretch;
+        gap:4px;
+        background-color: #FF5B23;
+    }
+    .box2 {
+        display: flex;
+        width: 10px;
+        /* align-self: stretch; */
+        gap:4px;
+        background-color: #FF5B23;
+    }
+    .box3 {
+        display: flex;
+        width: 17px;
+        align-self: stretch;
+        gap:4px;
+        background-color: #FF5B23;
+    }
+    .box4 {
+        display: flex;
+        width: 29px;
+        align-self: stretch;
+        gap:4px;
+        background-color: #FF5B23;
+    }
+    .box5 {
+        display: flex;
+        width: 48px;
+        align-self: stretch;
+        gap:4px;
+        background-color: #FF5B23;
+    }
+
+    .box6 {
+        display: flex;
+        width: 4px;
+        align-self: stretch;
+        gap:20px;
+        background-color: #FF5B23;
+    }
+
+
+
+    .fitp p {
+        margin: 0px;
+    }
+    .fitp h6 {
+        margin: 0px;
+    }
+
+    .unleashedd p {
+        display: flex;
+        color: #FBF8F3;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin: 0px;
+        width: 396px;
+        
+    }
 }
 
 

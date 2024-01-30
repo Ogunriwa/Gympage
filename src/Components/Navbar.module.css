@@ -29,7 +29,7 @@
     
     
     
-    backdrop-filter: blur(20px);  
+    backdrop-filter: blur(10px);  
     background: transparent;
     background-color: rgba(37, 37, 37, 0.5);
    
@@ -46,7 +46,7 @@
     transform: translate(-50%) ;
    
     
-    z-index:3;
+    z-index:1;
 }   
 .imgcont {
     display: flex;
