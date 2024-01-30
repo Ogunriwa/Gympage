@@ -4,46 +4,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;600;700&display=swap');
     
- .navig {
-    display: flex;
-    width: 100%;
-    padding: 24px 40px 0px 40px;
-    /* align-items: center;
-    width: 1200px; */
 
-} 
 .navitem {
     color: white;
     font-family: 'K2D';
     font-size:16px;
     display: flex;
     flex: 1 0 0;
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
-    
-    
+    align-items: end;
+    /* align-content: center; */
+    justify-content: space-between; 
     border: 6px;
     border-radius: 32px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px; 
-    
-    
-    
-    backdrop-filter: blur(10px);  
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;     
+    backdrop-filter: blur(2px);  
     background: transparent;
     background-color: rgba(37, 37, 37, 0.5);
-   
     opacity:1;
-    width: 96%; 
-  
+    
+
+    padding: 16px 24px 16px 60px;
     height: auto;
-    padding: 16px 24px;
-    overflow-x: visible;
+    overflow-x: hidden;
     overflow-y: visible;
    
     position: absolute; 
     left: 50%;
-    transform: translate(-50%) ;
+    transform: translate(-50%) ; 
    
     
     z-index:1;
@@ -55,6 +42,10 @@
     align-items: center;
     padding: 16px 24px;
 }
+
+.imgcont p {
+    font: 600 16px K2D, sans-serif;
+}
 .menu {
     list-style: none;
   
@@ -63,7 +54,7 @@
     align-items: center;
     font-size: 16px;
     /* padding-right: 24px; */
-    height: 40px;
+    /* height: 40px; */
     padding:16px 24px;
     justify-content: center;
     font-family: 'K2D';
@@ -84,26 +75,24 @@
     align-items: center;
     justify-content: center;
     padding:4px 4px 4px 16px;
+    align-self: stretch;
     
     color: black;
     font-family: 'K2D';
     font-size: 16px;
     font-weight: 400;
     border-radius: 42px;
-    padding: 19px; 
     margin: 0px;
     width:auto;
-    height: 40px; 
+    /* height: 40px;  */
     gap:8px;
     
 }
 
-.letak a {
+.letak  {
     /* width:70px;
     height:; */
-    font-family:'K2D';
-    font-weight: 400;
-    font-size: 16px;
+    font: 400 16px K2D, sans-serif;
     line-height: 20px;
 }
 /* 
@@ -125,6 +114,12 @@ img {
     padding:0px;
     background-color: beige;
 }
+
+.about {
+    font: 400 16px K2D, sans-serif;
+}
+
+
 }
 
 @media screen and (min-width: 1441px) {
@@ -141,15 +136,15 @@ img {
         align-items: center;
         justify-content: space-between;
         border: 2px;
-        border-radius: 48px;
+        border-radius: 50px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;
         position: relative;
-        top: 24px;
+        /* top: 24px; */
         /* margin-bottom: 24px; */
-        margin-right: 40px;
-        margin-left: 40px;
-        backdrop-filter: blur(100px); /* Adjust the blur amount as needed */
-        background-color: rgba(37, 37, 37, 0.5);
+        /* margin-right: 40px;
+        margin-left: 40px; */
+        backdrop-filter: blur(1000px); /* Adjust the blur amount as needed */
+        /* background-color: rgba(37, 37, 37, 0.5); */
         opacity:1;
         width: 1828.8px;
         /* width: fit-content; */

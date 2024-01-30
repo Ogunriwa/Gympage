@@ -5,7 +5,8 @@ import styles from './App.module.css';
 import Main from './Main';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import WhyChooseUs from "./WhyChooseUs";
+import MeetOurTrainers from './MeetOurTrainer';
+
 
 
 
@@ -14,8 +15,7 @@ function App() {
   return (
     <div className= {styles.Backcolor}>
       
-      <Main />
-      <WhyChooseUs />
+      <Main /> 
       <Footer />
       
     

@@ -1,0 +1,133 @@
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;600;700&display=swap');
+    @import url('font-service-url');
+    .tranars {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 104px 48px;
+        gap: 72px;
+
+    }
+
+    .statem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:8px
+    }
+
+    .statem h2 {
+        color: #FBF8F3;
+        font: 700 36px MADE Outer Sans, sans-serif;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .statem p {
+        color: #FBF8F3;
+        font: 400 24px K2D, sans-serif;
+        text-align: center;
+        margin: 0px;
+        letter-spacing: 0.24px
+        
+
+    }
+    .expimg{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 60px; 
+    }
+
+    .exper {
+
+        width: 320px;
+        height: 320px;
+        flex-shrink: 0;
+        display:flex;
+        align-items: flex-end;
+        background: radial-gradient(144.35% 169.33% at 38.44% -66.88%, 
+        rgba(255, 91, 35, 0.25) 1.09%, 
+        rgba(50, 19, 8, 0.40) 73.64%,
+        rgba(11, 6, 5, 0.50) 100%,
+        rgba(89, 38, 20, 0.32) 100%);
+        border: 0.04px solid silver;
+        border-radius: 15px;
+        
+
+    } 
+
+    /* .absol {
+        width: 282px;
+        height: 277.913px;
+        flex-shrink: 0;
+        position: relative;
+        /* background: url('unsplash_Z72YujnOrlY.png');
+        background-size: cover; */
+        /* top: 17px;
+        left: 20px; */
+        /* z-index: 2; 
+    } */ 
+
+
+
+    .social {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:12px;
+        z-index: 1;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        width: 86px;
+        height: 46px;
+    }
+
+    .social p {
+
+      
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'K2D';
+        margin: 0px;
+        letter-spacing: 0.2px;
+        color: #ACACAC;
+        line-height: 150%;
+       
+    
+    }
+
+    .insta {
+        display:flex;
+        align-items: flex-start;
+        gap: 16px;
+
+    }
+
+    .insta img {
+
+        width: 16px;
+        height: 16px;
+        background: transparent;
+
+    }
+
+    .absol img {
+        background: transparent;
+    }
+
+    .new {
+        display:flex;
+        justify-content: space-between;
+       
+    }
+
+    .exper {
+        overflow: hidden;
+    }
+
+}

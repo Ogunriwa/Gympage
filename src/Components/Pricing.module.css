@@ -1,0 +1,42 @@
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;600;700&display=swap');
+    @import url('font-service-url');
+
+    .tranars {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 104px 48px;
+        gap: 72px;
+
+    }
+
+    .statem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:8px
+    }
+
+    .statem h2 {
+        color: #FBF8F3;
+        font: 700 36px MADE Outer Sans, sans-serif;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .statem p {
+        color: #FBF8F3;
+        font: 400 24px K2D, sans-serif;
+        text-align: center;
+        margin: 0px;
+        letter-spacing: 0.24px
+        
+
+    }
+
+    
+
+}

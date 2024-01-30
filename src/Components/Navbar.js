@@ -9,8 +9,7 @@ const images = {
 ;
 const Navbar = () => {
 
-    return (
-    <div className={styles.navig}>  
+    return ( 
         <div className= {styles.navitem}>
             <div className = {styles.imgcont}>
                 <p>Gymbro</p> 
@@ -28,8 +27,7 @@ const Navbar = () => {
             </div>
             
 
-        </div>
-    </div>  
+        </div> 
     )
 };
 export default Navbar;
