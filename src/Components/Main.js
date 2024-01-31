@@ -15,7 +15,7 @@ const Main = () => {
            <Hero/>
            <WhyChooseUs/>
            <MeetOurTrainers />
-           <Pricing />
+           <Pricing/>
         </div>
     )
 

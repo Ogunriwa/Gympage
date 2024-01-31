@@ -38,7 +38,7 @@ const MeetOurTrainers = () => {
                 <div className= {styles.exper}>
                     <div className= {styles.new}>
                         <div className= {styles.social}>
-                            <p>John Doe</p>
+                            <p>John Dose</p>
                             <div className= {styles.insta}>
                                 <img src= {instagram}/>
                                 <img src= {tiktok}/>

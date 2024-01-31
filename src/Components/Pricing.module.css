@@ -3,7 +3,7 @@
     @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;600;700&display=swap');
     @import url('font-service-url');
 
-    .tranars {
+    .cards {
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -12,7 +12,7 @@
 
     }
 
-    .statem {
+    .costm {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -20,14 +20,14 @@
         gap:8px
     }
 
-    .statem h2 {
+    .costm h2 {
         color: #FBF8F3;
         font: 700 36px MADE Outer Sans, sans-serif;
         text-align: center;
         margin: 0px;
     }
 
-    .statem p {
+    .costm p {
         color: #FBF8F3;
         font: 400 24px K2D, sans-serif;
         text-align: center;
@@ -35,6 +35,88 @@
         letter-spacing: 0.24px
         
 
+    }
+
+    .pricard {
+        display: flex;
+        
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+   
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 370px;
+        border-radius: 16px;
+        border: 1px solid rgba(64, 61, 57, 0.60);
+
+        background: radial-gradient(107.01% 107.01% at 50% 107.01%, rgba(107, 114, 128, 0.09) 0%, rgba(1, 1, 1, 0.08) 58.85%, rgba(107, 114, 128, 0.12) 100%);
+    }
+
+    .free {
+        display: flex;
+        flex-direction: column;
+        padding-left: 16px;
+        gap:24px;
+        padding-top: 40px;
+        padding-bottom: 148px;
+    }
+
+    .free h2{
+
+        margin: 0px;
+    }
+    .details p {
+       
+        margin: 0px;
+    }
+    .basic{
+        padding-left: 16px;
+        margin-top: 24px;
+    }
+
+    .nofree {
+        display: flex;
+        gap:8px;
+        align-items: flex-end;
+        
+    }
+
+    .nofree h2 {
+        margin: 0px;
+    }
+
+    .nofree p {
+        margin: 0px;
+    }
+
+ 
+
+
+    .butt button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 94px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+        background: #1C1C1C;
+        width: 334px;
+        color: #FBF8F3;
+
+
+    }
+
+    .butt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     
