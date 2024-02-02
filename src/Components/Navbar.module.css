@@ -4,36 +4,49 @@
 
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;600;700&display=swap');
     
+.navbar {
+    display:flex;
+    
+    padding: 16px 24px 16px 60px;
+    justify-content: space-between;
+    position: relative;
+    
+    z-index: 1;
+    width:100%;
+    overflow: hidden;
+    
 
+}
 .navitem {
     color: white;
     font-family: 'K2D';
     font-size:16px;
     display: flex;
     flex: 1 0 0;
-    align-items: end;
-    /* align-content: center; */
+    
     justify-content: space-between; 
-    border: 6px;
+    align-items: center;
+    border: 12px;
     border-radius: 32px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px 0px;     
-    backdrop-filter: blur(2px);  
-    background: transparent;
-    background-color: rgba(37, 37, 37, 0.5);
-    opacity:1;
+    background: rgba(37, 37, 37, 0.50);
+
+    backdrop-filter: blur(2px);     
+    
+    padding: 16px 24px;
+    overflow: hidden;
+
+   
     
 
-    padding: 16px 24px 16px 60px;
+    
     height: auto;
     overflow-x: hidden;
     overflow-y: visible;
    
-    position: absolute; 
-    left: 50%;
-    transform: translate(-50%) ; 
+    
    
     
-    z-index:1;
+   
 }   
 .imgcont {
     display: flex;
@@ -102,21 +115,19 @@
     background-color:#FFEFE9 ;
 } */
 
-img {
-    /* margin-left: 16px;
-    background-color: orange;
-    padding: 10px;
-    border-radius: 32px;
-    width:32px;
-    height: 32px; */
-    /* display: flex; */
+.letak img {
+    
     margin: 0px;
     padding:0px;
-    background-color: beige;
+    background: none;
 }
 
 .about {
     font: 400 16px K2D, sans-serif;
+}
+
+.letak p {
+    margin: 0px;
 }
 
 

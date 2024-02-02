@@ -11,7 +11,6 @@ const Main = () => {
 
     return (
         <div className={styles.naveo}>
-           <Navbar/>
            <Hero/>
            <WhyChooseUs/>
            <MeetOurTrainers />

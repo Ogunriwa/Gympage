@@ -3,14 +3,25 @@
 
     .heroitem  {
     
-        background-image:url('BGImg.png') ;
+        /* background-image:url('BGImg.png') ;
         background-size: cover; 
         background-position: center; 
-        background-repeat: no-repeat;
-        width: 1200px;
+        background-repeat: no-repeat; */
+        width: 100%;
         height: 615px;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.34) 21.78%, #000 100%), url('BGImg.png'), lightgray 0px -57.895px / 100% 146.282% no-repeat;
+        overflow: hidden;
+        
         }
+
     
+    /* .navee {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%)
+    } */
     .heron {
         display:flex;
         width: 931px;
