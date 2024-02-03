@@ -5,6 +5,7 @@ import styles from "./Main.module.css";
 import WhyChooseUs from "./WhyChooseUs";
 import MeetOurTrainers from "./MeetOurTrainer";
 import Pricing from "./Pricing";
+import Testemonials from "./Testemonials";
 
 
 const Main = () => {
@@ -15,6 +16,7 @@ const Main = () => {
            <WhyChooseUs/>
            <MeetOurTrainers />
            <Pricing/>
+           <Testemonials />
         </div>
     )
 

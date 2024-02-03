@@ -1,0 +1,102 @@
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;600;700&display=swap');
+
+    .second {
+        display: flex;
+        padding: 104px 40px 104px 48px;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .words {
+        display: flex;
+        width: 448px;
+        max-width: 540px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+
+    }
+
+    .words p {
+        margin: 0px;
+        font-family: K2D;
+        color: #FBF8F3;
+        font-family: K2D;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 33.6px */
+        letter-spacing: 0.24px;
+
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+
+    }
+
+    .boxes1 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .shape1 {
+        width: 240px;
+        height: 176px;
+
+        border-radius: 16px;
+        background: #1C1C1C;
+
+
+
+    }
+
+    .shape2 {
+        width: 304px;
+        height: 176px;
+
+        border-radius: 16px;
+        background: #1C1C1C;
+        
+    }
+
+    .shape3 {
+        width: 304px;
+        height: 176px;
+
+        border-radius: 16px;
+        background: #1C1C1C;
+        
+    }
+
+    .shape4 {
+        display: flex;
+        padding: 0px 331px 247px 0px;
+        align-items: center;
+
+        border-radius: 16px;
+        background: #1C1C1C;
+        
+    }
+
+    .words h1 {
+        color: #FBF8F3;
+        font-family: "MADE Outer Sans";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0px;
+    }
+
+
+}

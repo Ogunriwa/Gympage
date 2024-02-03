@@ -1,0 +1,15 @@
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;600;700&display=swap');
+
+.last{
+    display: flex;
+    padding: 88px 48px 160px 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch;
+
+}
+
+};

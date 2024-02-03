@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 const Hero = () => {
   return (
     <div className={styles.heroitem}>
-      <Navbar className= {styles.navee}/>
+     
       <div className={styles.heron}>
         <div className={styles.strenj}>
           <h1>Strength</h1>
