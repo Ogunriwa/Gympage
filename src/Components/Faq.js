@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./Faq.module.css";
 import chev from "./down.png"
 
-const Navbar = () => {
+const Faq = () => {
 
-    returm (
+    return (
         <div className= {styles.last}>
 
             <div className= {styles.faq}>
@@ -53,3 +53,6 @@ const Navbar = () => {
         </div>
     )
 }
+
+
+export default Faq;

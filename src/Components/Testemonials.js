@@ -7,7 +7,7 @@ const Testemonials = () => {
     <div className= {styles.second}>
         <div className= {styles.words}>
             <p>Hear from others</p>
-            <h1>Results</h1>
+            <h1>Testemonials</h1>
             <p>Happy clients makes us stronger and we are happy to share their story</p>
 
         </div>

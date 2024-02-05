@@ -12,4 +12,70 @@
 
 }
 
-};
+.questions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+
+}
+
+ .questions button {
+   
+    border-top: none; /* Removes the top border */
+    border-left: none; /* Removes the left border */
+    border-right: none; /* Removes the right border */
+    border-bottom: 1px solid #FBF8F3;
+    background: none;
+     
+
+} 
+
+.faq h2 {
+    margin:0px;
+}
+
+.butdiv h2 {
+    color: #FBF8F3;
+
+    leading-trim: both;
+
+    text-edge: cap;
+    font-family: "MADE Outer Sans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+.butdiv {
+    display: flex;
+    padding: 31px 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: none;
+    width: 1200px;
+    
+
+}
+
+.faq {
+    display:flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.butdiv img {
+    background: none;
+    width: 16px;
+    height: 8px;
+    stroke-width: 3px;
+    stroke: #FBF8F3;
+
+
+}
+
+}

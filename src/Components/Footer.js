@@ -1,10 +1,13 @@
 import React from "react";
+import styles from "./Footer.module.css"
 
 const Footer = () => {
     return (
 
         <footer>
-            <p>&copy; 2023 Your Company. All rights reserved.</p>
+            <div className= {styles.end}>
+                <p>Join our Family fitness today</p>
+            </div>
         </footer>
         
       );

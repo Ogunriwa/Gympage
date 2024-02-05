@@ -6,6 +6,7 @@ import WhyChooseUs from "./WhyChooseUs";
 import MeetOurTrainers from "./MeetOurTrainer";
 import Pricing from "./Pricing";
 import Testemonials from "./Testemonials";
+import Faq from "./Faq"
 
 
 const Main = () => {
@@ -17,6 +18,7 @@ const Main = () => {
            <MeetOurTrainers />
            <Pricing/>
            <Testemonials />
+           <Faq />
         </div>
     )
 
