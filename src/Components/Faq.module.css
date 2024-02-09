@@ -31,6 +31,78 @@
      
 
 } 
+.noclickdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.clickdiv {
+   
+    border-top: none; /* Removes the top border */
+    border-left: none; /* Removes the left border */
+    border-right: none; /* Removes the right border */
+    border-bottom: 1px solid #FBF8F3;
+    background: none;
+    display: flex;
+    padding: 31px 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: none;
+    width: 1200px;
+    
+     
+
+} 
+
+.clickdiv img {
+    background: none;
+    width: 32px;
+    height: 34px;
+    stroke-width: 3px;
+    stroke: #FBF8F3;
+
+
+}
+
+
+.clickdiv h2 {
+    color: #FBF8F3;
+
+    leading-trim: both;
+
+    text-edge: cap;
+    font-family: "MADE Outer Sans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+.ans {
+    
+    padding: 40px;
+    display: flex;
+    border-radius: 16px;
+    background: #1C1C1C;
+
+}
+
+.ans p {
+    color: #FBF8F3;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "MADE Outer Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin: 0px;
+
+}
+
 
 .faq h2 {
     margin:0px;

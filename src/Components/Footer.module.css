@@ -1,11 +1,11 @@
 @media screen and (min-width: 1024px) and (max-width:1440px) {
 
-    @font-face {
-        font-family: 'YourFontName';
-        src: url('src/Components/made-outer-sans-alt-cdnfonts/MADE Outer Sans Alt Black PERSONAL USE.ttf') format('MADE Outer Sans'),;/* Modern Browsers */
-          
+    /* @font-face {
         
-      }
+        src: url('src/Components/made-outer-sans-alt-cdnfonts/MADE Outer Sans Alt Black PERSONAL USE.ttf') format('MADE Outer Sans'),;/* Modern Browsers */
+        /* font-family: 'MADE Outer Sans'; 
+        
+      } */ 
     footer {
         display: flex;
         padding: 40px 48px;
